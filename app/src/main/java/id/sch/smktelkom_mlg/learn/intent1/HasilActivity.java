@@ -13,7 +13,8 @@ public class HasilActivity extends AppCompatActivity {
 
         findViewById(R.id.buttonHitung).setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View v)
+            {
                 onBackPressed();
             }
         });
